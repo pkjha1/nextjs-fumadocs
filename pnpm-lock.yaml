@@ -1,5 +1,27 @@
 lockfileVersion: '9.0'
 
+name: docs
+version: 0.0.0
+private: true
+scripts:
+  build: node ./scripts/clone-docs.mjs && next build
+  dev: next dev --turbo
+  start: next start
+  format: prettier . -w
+dependencies:
+  '@fumadocs/mdx-remote': ^1.1.1
+  '@vercel/analytics': ^1.4.1
+  fast-glob: ^3.3.3
+  fumadocs-core: 14.7.6
+  fumadocs-ui: 14.7.6
+  geist: ^1.3.1
+  lucide-react: ^0.473.0
+  next: 14.1.0
+  octokit: ^4.1.0
+  react: ^18.2.0
+  react-dom: ^18.2.0
+  shiki: ^2.0.3
+
 settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
