@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fumadocs/mdx-remote": "^1.1.1",
+    "@vercel/analytics": "^1.4.1",
     "fast-glob": "^3.3.3",
     "fumadocs-core": "14.7.6",
     "fumadocs-ui": "14.7.6",
